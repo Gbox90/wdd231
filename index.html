@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a sample HTML document.">
+    <meta name="author" content="Greisa Cajas">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="site logo" width="24" height="24">
+        <span>The Site Name</span>
+        <button id="ham-button" class="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section class="introduction">
+
+            <div class="about-me">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet tincidunt, nunc
+                    nisl aliquam nunc, eget aliquam nunc nisl eget nunc.</p>
+            </div>
+
+            <div class="student-photo">
+                <h2>Student Photo</h2>
+                <img src="images/student-photo.jpg" alt="student photo" width="200" height="200">
+            </div>
+        </section>
+        <section class="courses">
+            <div class="web-courses">
+                <h2>Web Certificate Courses</h2>
+                <ul>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">CSE</a></li>
+                    <li><a href="#">WDD</a></li>
+            </div>
+            <div class="course-names">
+                <ul>
+                    <li><a href="#">WDD 130</a></li>
+                    <li><a href="#">WDD 131</a></li>
+                    <li><a href="#">WDD 231</a></li>
+                </ul>
+            </div>
+            <p>The total credits for courses listed above is 6</p>
+        </section>
+
+    </main>
+    <footer>
+        <div class="socials">
+            <a href="#" target="_blank"><img src="images/linkedin.svg" alt="linkedin profile" width="24"
+                    height="24"></a>
+            <a href="#" target="_blank"><img src="images/github.svg" alt="github profile" width="24" height="24"></a>
+            <a href="#" target="_blank"><img src="images/google.svg" alt="google profile" width="24" height="24"></a>
+            <a href="#" target="_blank"><img src="images/strava.svg" alt="strava profile" width="24" height="24"></a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> Greisa Cajas. All rights reserved. Florida, USA</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/navigation.js"></script>
+</body>
+
+</html>
