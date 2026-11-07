@@ -14,7 +14,7 @@ blue
 :root {
     --primary-color: #174f35;
     --background-color: #e8eee9;
-    --footer-color: #174f35;
+    --footer-color: #85cdda;
     --text-color: #222222;
 }
 
@@ -93,8 +93,8 @@ header span {
 }
 
 .navigation a:hover {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: #dbfefc;
+    color: #000000;
 }
 
 h1 {
@@ -208,7 +208,7 @@ h1 {
 
 footer {
     background-color: var(--footer-color);
-    color: white;
+    color: #000000;
     padding: 1rem 5px;
     text-align: center;
 }
