@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is a sample HTML document.">
+    <meta name="description"
+        content="This is my WDD231 course home page featuring my student photo, about me section, and a list of web certificate courses.">
     <meta name="author" content="Greisa Cajas">
-    <title>Document</title>
+    <title>Greisa's WDD231 Course Home</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +20,9 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+
 
 
 </head>
@@ -26,62 +30,69 @@
 <body>
     <header>
         <img src="images/logo.svg" alt="site logo" width="24" height="24">
-        <span>The Site Name</span>
-        <button id="ham-button" class="hamburger"></button>
+        <span>Greisa Cajas</span>
+        <button id="ham-button" class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"
+            aria-controls="nav-bar"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="#">Home</a></li>
+            <li class="current"><a href="index.html" aria-current="page">Home</a></li>
             <li><a href="#">Chamber Project</a></li>
             <li><a href="#">Final</a></li>
         </ul>
     </nav>
     <main>
         <h1>Home</h1>
-        <section class="introduction">
 
-            <div class="about-me">
+        <div class="introduction">
+
+            <section class="about-me">
                 <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet tincidunt, nunc
-                    nisl aliquam nunc, eget aliquam nunc nisl eget nunc.</p>
-            </div>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Sed euismod, nunc ut laoreet
+                    tincidunt, nunc nisl aliquam nunc.
+                </p>
+            </section>
 
-            <div class="student-photo">
+            <section class="student-photo">
                 <h2>Student Photo</h2>
-                <img src="images/student-photo.jpg" alt="student photo" width="200" height="200">
-            </div>
-        </section>
+                <img src="images/student-photo.jpg" alt="Student photo" width="200" height="200">
+            </section>
+
+        </div>
+
         <section class="courses">
             <div class="web-courses">
                 <h2>Web Certificate Courses</h2>
-                <ul>
-                    <li><a href="#">All</a></li>
-                    <li><a href="#">CSE</a></li>
-                    <li><a href="#">WDD</a></li>
-            </div>
-            <div class="course-names">
-                <ul>
-                    <li><a href="#">WDD 130</a></li>
-                    <li><a href="#">WDD 131</a></li>
-                    <li><a href="#">WDD 231</a></li>
-                </ul>
-            </div>
-            <p>The total credits for courses listed above is 6</p>
+                <div class="course-filters">
+                    <button id="all" type="button">All</button>
+                    <button id="cse" type="button">CSE</button>
+                    <button id="wdd" type="button">WDD</button>
+                </div>
+
+                <div id="course-list" class="course-list"></div>
+
+                <p>Total Credits: <span id="total-credits"></span></p>
+
         </section>
 
     </main>
     <footer>
         <div class="socials">
-            <a href="https://www.linkedin.com/in/greisa-cajas/" target="_blank"><img src="images/linkedin.svg" alt="linkedin profile" width="24"
-                    height="24"></a>
-            <a href="https://github.com/Gbox90" target="_blank"><img src="images/github.svg" alt="github profile" width="24" height="24"></a>
-            <a href="https://www.google.com" target="_blank"><img src="images/google.svg" alt="google profile" width="24" height="24"></a>
-            <a href="https://www.strava.com/athletes/greisa_cajas" target="_blank"><img src="images/strava.svg" alt="strava profile" width="24" height="24"></a>
+            <a href="https://www.linkedin.com/in/greisa-cajas/" target="_blank"><img src="images/linkedin.svg"
+                    alt="linkedin profile" width="24" height="24"></a>
+            <a href="https://github.com/Gbox90" target="_blank"><img src="images/github.svg" alt="github profile"
+                    width="24" height="24"></a>
+            <a href="https://www.google.com" target="_blank"><img src="images/google.svg" alt="google profile"
+                    width="24" height="24"></a>
+            <a href="https://www.strava.com/athletes/greisa_cajas" target="_blank"><img src="images/strava.svg"
+                    alt="strava profile" width="24" height="24"></a>
         </div>
         <p>&copy; <span id="currentyear"></span> Greisa Cajas. All rights reserved. Florida, USA</p>
         <p><span id="lastModified"></span></p>
     </footer>
-    <script src="scripts/navigation.js"></script>
 </body>
 
 </html>
