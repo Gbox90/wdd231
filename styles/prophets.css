@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: playfair display, sans-serif;
+}
+
+:root {
+    --primary-color: #adb9f0;
+    --secondary-color: #2600ff;
+    --accent-color: #525050;
+}
+
+header {
+    color: var(--secondary-color);
+    text-align: center;
+    border-bottom: 1px solid var(--accent-color);
+    text-shadow: 0 0 20px var(--secondary-color);
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#cards section {
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid var(--accent-color);
+}
+
+#cards img {
+    box-shadow: 0 0 30px #777;
+}
