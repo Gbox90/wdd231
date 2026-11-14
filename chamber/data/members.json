@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name":"Abracadabarba Ice Cream Factory",
+            "address":"520 N. Main St.",
+            "phone":"407-201-2509",
+            "website":"https://abracadabraicecream.com/",
+            "img":"images/abracadabra-img.webp",
+            "level":"1",
+            "type":"Restaurant"
+        },
+        {
+            "name":"Big John's Rockin' BBQ",
+            "address":"220 E. Monument, STE A",
+            "phone":"883-998-8701",
+            "website":"https://bigjohnsrockinbbq.com/",
+            "img":"images/bigjohnbbq-logo.webp",
+            "level":"2",
+            "type":"Restaurant"
+        },
+        {
+            "name":"Broadway Pizza Bar",
+            "address":"403 Broadway",
+            "phone":"407-847-7050",
+            "website":"https://broadwaypizzabar.com/",
+            "img":"",
+            "level":"3",
+            "type":"Restaurant"
+        },
+        {
+            "name":"Wilmary's Beauty Studio",
+            "address":"111 E. Monument Ave",
+            "phone":"689-200-0088",
+            "website":"https://wilmarysbrowsartiststudiollc.com/",
+            "img":"images/wilmary-logo.webp",
+            "level":"2",
+            "type":"Beauty & Spa"
+        },
+        {
+            "name":"Lewis Music Store",
+            "address":"117 Broadway",
+            "phone":"407-846-2303",
+            "website":"https://www.facebook.com/p/Lewis-Music-Store-100057581404547/",
+            "img":"images/lewis-logo.webp",
+            "level":"",
+            "type":"Music/Entertainment"
+        },
+        {
+            "name":"Willy's Wieners & More",
+            "address":"16 Broadway",
+            "phone":"",
+            "website":"",
+            "img":"",
+            "level":"",
+            "type":""
+        },
+        {
+            "name":"Mi Casita Restaurant",
+            "address":"321 S. John Young Pkwy",
+            "phone":"",
+            "website":"",
+            "img":"",
+            "level":"",
+            "type":""
+        }
+    ]
+}
