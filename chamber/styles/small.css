@@ -97,16 +97,30 @@ h1 {
 
 .list {
     display: block;
+    padding: 1rem;
     text-align: left;
+    ;
 }
 
 .list img {
     display: none;
 }
 
+#cards {
+    overflow-wrap: anywhere;
+}
+
+#cards section {
+    background-color: rgb(179, 199, 209);
+    padding: 1rem;
+    gap: 5px;
+    border-radius: 15%;
+    border-style: outset;
+} 
 
 #cards img {
     max-width: 100%;
     min-width: 0;
     height: auto;
+    padding: 1rem;
 }
