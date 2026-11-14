@@ -104,7 +104,9 @@ h1 {
     display: none;
 }
 
+
 #cards img {
     max-width: 100%;
+    min-width: 0;
     height: auto;
 }
