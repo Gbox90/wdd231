@@ -35,7 +35,7 @@ const displayMembers = (members) => {
         img.setAttribute('src', member.img);
         img.setAttribute('loading', 'lazy');
         img.setAttribute('width', '250');
-        img.setAttribute('height', 'auto');
+        img.setAttribute('height', '250');
         img.setAttribute('alt', member.name)
 
         //card with business information//
