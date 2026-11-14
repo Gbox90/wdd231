@@ -23,7 +23,7 @@
             "address":"403 Broadway",
             "phone":"407-847-7050",
             "website":"https://broadwaypizzabar.com/",
-            "img":"",
+            "img":"images/broadway.webp",
             "level":"3",
             "type":"Restaurant"
         },
@@ -42,26 +42,26 @@
             "phone":"407-846-2303",
             "website":"https://www.facebook.com/p/Lewis-Music-Store-100057581404547/",
             "img":"images/lewis-logo.webp",
-            "level":"",
+            "level":"3",
             "type":"Music/Entertainment"
         },
         {
             "name":"Willy's Wieners & More",
             "address":"16 Broadway",
-            "phone":"",
-            "website":"",
-            "img":"",
-            "level":"",
-            "type":""
+            "phone":"407-201-7916",
+            "website":"https://willyswienersandmore.com/",
+            "img":"images/willys.webp",
+            "level":"1",
+            "type":"Restaurant"
         },
         {
             "name":"Mi Casita Restaurant",
-            "address":"321 S. John Young Pkwy",
-            "phone":"",
-            "website":"",
-            "img":"",
-            "level":"",
-            "type":""
+            "address":"421 Broadway",
+            "phone":"407-846-4643",
+            "website":"https://www.kissimmeemainstreet.org/connections/55744-mi-casita-restaurant/",
+            "img":"images/micasita.webp",
+            "level":"1",
+            "type":"Restaurant"
         }
     ]
 }
