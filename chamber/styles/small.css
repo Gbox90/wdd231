@@ -23,7 +23,7 @@ header {
 header span {
     font-size: 1.2rem;
     color: var(--primary-color);
-    background-color: var(--);
+    border-color: #000;
 }
 
 /*hamburger menu*/
@@ -96,7 +96,12 @@ h1 {
 }
 
 .list {
-    display: grid;
+    display: block;
+    text-align: left;
+}
+
+.list img {
+    display: none;
 }
 
 #cards img {

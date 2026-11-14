@@ -69,6 +69,7 @@ listbutton.addEventListener("click", showList);
 function showList() {
     cards.classList.add("list");
     cards.classList.remove("grid");
+    cards.classList.remove("img");
 }
 
 //navigation menu//
