@@ -36,6 +36,7 @@ const displayMembers = (members) => {
         img.setAttribute('loading', 'lazy');
         img.setAttribute('width', '250');
         img.setAttribute('height', 'auto');
+        img.setAttribute('alt', member.name)
 
         //card with business information//
         card.appendChild(businessName);
@@ -69,7 +70,6 @@ listbutton.addEventListener("click", showList);
 function showList() {
     cards.classList.add("list");
     cards.classList.remove("grid");
-    cards.classList.remove("img");
 }
 
 //navigation menu//
